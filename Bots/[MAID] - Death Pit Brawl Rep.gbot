@@ -1,0 +1,388 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "DEATH PIT BRAWL REP",
+        "Alpha": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "========",
+        "Alpha": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5156,
+          "IsInProgress": true
+        },
+        "ghostAccept": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5157,
+          "IsInProgress": true
+        },
+        "ghostAccept": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 5165,
+          "IsInProgress": true
+        },
+        "ghostAccept": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "deathpitbrawl-23091",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "deathpitbrawl-23091",
+        "Cell": "Enter0",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Enter0",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "250",
+        "Y": "290",
+        "Wait": 2,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Morale0C",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "920",
+        "Y": "400",
+        "Wait": 3,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Morale0B",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "950",
+        "Y": "400",
+        "Wait": 6,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Morale0A",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "950",
+        "Y": "400",
+        "Wait": 6,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Crosslower",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "850",
+        "Y": "330",
+        "Wait": 3,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Crossupper",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "450",
+        "Y": "330",
+        "Wait": 1,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "450",
+        "Y": "290",
+        "Wait": 1,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Resource1A",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*",
+        "KillPriority": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "920",
+        "Y": "400",
+        "Wait": 3,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Resource1B",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*",
+        "KillPriority": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "0",
+        "Y": "400",
+        "Wait": 1,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "482",
+        "Y": "300",
+        "Wait": 3,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "100",
+        "Y": "340",
+        "Wait": 2,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "505",
+        "Y": "326",
+        "Wait": 2,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "505",
+        "Y": "300",
+        "Wait": 1,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "========",
+        "Alpha": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Morale1A",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*",
+        "KillPriority": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "920",
+        "Y": "400",
+        "Wait": 3,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Morale1B",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*",
+        "KillPriority": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "950",
+        "Y": "400",
+        "Wait": 6,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is",
+        "Value1": "Morale1C",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*",
+        "KillPriority": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdWalk, Grimoire",
+        "X": "950",
+        "Y": "400",
+        "Wait": 6,
+        "Type": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "*",
+        "KillPriority": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "========",
+        "Alpha": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "yulgar-23091",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 5156,
+        "SafeRelogin": true,
+        "Text": "5156",
+        "IsInProgress": true
+      },
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 5157,
+        "SafeRelogin": true,
+        "Text": "5157",
+        "IsInProgress": true
+      },
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 5165,
+        "SafeRelogin": true,
+        "Text": "5165",
+        "IsInProgress": true
+      }
+    ]
+  },
+  "Author": "",
+  "Description": "",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Death Pit Token"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Safiria",
+    "iPort": 5588,
+    "sIP": "socket6.aq.com"
+  },
+  "ExitCombatBeforeRest": true,
+  "EnablePickup": true,
+  "AutoRelogin": true,
+  "RelogDelay": 5000,
+  "RelogRetryUponFailure": true,
+  "BotDelay": 1000,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "WalkSpeed": 20,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "RestartOnAFK": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "AFK": true,
+  "FollowName": "Player name",
+  "AutoZone": ""
+}

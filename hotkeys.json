@@ -1,0 +1,9 @@
+[
+  { "Text": "F1: Show Bot", "Key": 112, "ActionIndex": 1 },
+  { "Text": "F2: Start/Stop Bot", "Key": 113, "ActionIndex": 0 },
+  { "Text": "F3: Show Maid", "Key": 114, "ActionIndex": 8 },
+  { "Text": "F4: Start/Stop Maid", "Key": 115, "ActionIndex": 9 },
+  { "Text": "F5: Show Loaders", "Key": 116, "ActionIndex": 3 },
+  { "Text": "F11: Show Bank", "Key": 122, "ActionIndex": 13 },
+  { "Text": "F12: Hotkeys", "Key": 123, "ActionIndex": 2 }
+]

@@ -1,0 +1,589 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Champion Lynaria Armor",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "CHAMPION LYNARIA ARMOR"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Valen's Knightly Armor",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "VALEN'S KNIGHTLY ARMOR"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Enthralling Gem Shard",
+        "Value2": "80"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ENTHRALLING GEM SHARD"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Bocklin Ornament",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BOCKLIN ORNAMENT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Thronekeeper's Rune",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "THRONEKEEPER'S RUNE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "King Alteon's Armor Fragment",
+        "Value2": "20"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "KING ALTEON'S ARMOR FRAGMENT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Gold Voucher 100k",
+        "Value2": "20"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "GOLD VOUCHER 100K"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "bocklinsanctum-1",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 2578,
+        "ItemName": "Alden's Liberation Armor",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ENTHRALLING GEM SHARD"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsNotMember, Grimoire",
+        "Tag": "This player",
+        "Text": "Is Not Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAddQuestList, Grimoire",
+        "Id": 10240,
+        "ItemId": "",
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsMember, Grimoire",
+        "Tag": "This player",
+        "Text": "Is Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAddQuestList, Grimoire",
+        "Id": 10242,
+        "ItemId": "",
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "bocklingrove-9099",
+        "Cell": "r8",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Undead's Flag",
+        "ItemType": 1,
+        "Quantity": "9",
+        "KillPriority": "",
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "bocklingrove",
+        "Cell": "r9",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Wraith's Scream",
+        "ItemType": 1,
+        "Quantity": "6",
+        "KillPriority": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "bocklingrove",
+        "Cell": "r10",
+        "Pad": "Left",
+        "Monster": "Elder Necromancer",
+        "ItemName": "Necromancer's Coin",
+        "ItemType": 1,
+        "Quantity": "1",
+        "KillPriority": "",
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BOCKLIN ORNAMENT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsNotMember, Grimoire",
+        "Tag": "This player",
+        "Text": "Is Not Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAddQuestList, Grimoire",
+        "Id": 10253,
+        "ItemId": "",
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsMember, Grimoire",
+        "Tag": "This player",
+        "Text": "Is Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAddQuestList, Grimoire",
+        "Id": 10255,
+        "ItemId": "",
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "bocklincastle-9099",
+        "Cell": "r8",
+        "Pad": "Top",
+        "Monster": "*",
+        "ItemName": "Twisted Arms",
+        "ItemType": 1,
+        "Quantity": "50",
+        "KillPriority": "",
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "bocklincastle-9099",
+        "Cell": "r9",
+        "Pad": "Bottom",
+        "Monster": "*",
+        "ItemName": "Wreath of Aster",
+        "ItemType": 1,
+        "Quantity": "25",
+        "KillPriority": "",
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "bocklincastle",
+        "Cell": "r10",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Golden Anjou",
+        "ItemType": 1,
+        "Quantity": "1",
+        "KillPriority": "",
+        "QuestId": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "THRONEKEEPER'S RUNE"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsNotMember, Grimoire",
+        "Tag": "This player",
+        "Text": "Is Not Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAddQuestList, Grimoire",
+        "Id": 10266,
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsMember, Grimoire",
+        "Tag": "This player",
+        "Text": "Is Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAddQuestList, Grimoire",
+        "Id": 10267,
+        "ItemId": "",
+        "SafeRelogin": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "bocklinsanctum",
+        "Cell": "r10",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Black Armorial Fleur",
+        "ItemType": 1,
+        "Quantity": "1",
+        "KillPriority": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "GOLD VOUCHER 100K"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "thelimacity-1",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 2617,
+        "ItemName": "Gold Voucher 100k",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "CHAMPION LYNARIA ARMOR"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Enthralling Gem Shard",
+        "Value2": "80"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "ENTHRALLING GEM SHARD"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "darkplane",
+        "Cell": "r8",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Victorious' Golden Scale",
+        "Quantity": "1",
+        "KillPriority": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Gold Voucher 100k",
+        "Value2": "8"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "GOLD VOUCHER 100K"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "bocklingrove",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 2576,
+        "ItemName": "Champion Lynaria Armor",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "VALEN'S KNIGHTLY ARMOR"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Bocklin Ornament",
+        "Value2": "60"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "BOCKLIN ORNAMENT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "ebondungeon",
+        "Cell": "r7",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "Monster Blood",
+        "Quantity": "1",
+        "KillPriority": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Gold Voucher 100k",
+        "Value2": "8"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "GOLD VOUCHER 100K"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
+        "Map": "bocklincastle",
+        "Cell": "Enter",
+        "Pad": "Spawn",
+        "Try": 1,
+        "MapSwf": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBuy, Grimoire",
+        "ShopId": 2577,
+        "ItemName": "Valen's Knightly Armor",
+        "Qty": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "...",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "KING ALTEON'S ARMOR FRAGMENT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdShortHunt, Grimoire",
+        "Map": "alteonfight",
+        "Cell": "r2",
+        "Pad": "Left",
+        "Monster": "*",
+        "ItemName": "King Alteon's Armor Fragment",
+        "Quantity": "20",
+        "KillPriority": "",
+        "DelayAfterKill": 500,
+        "BlankFirst": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdRestart, Grimoire"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Shackle",
+        "Index": "1",
+        "Type": 1,
+        "SType": 1,
+        "SafeValue": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Highlord's Gaze",
+        "Index": "2"
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Unshackle",
+        "Index": "3",
+        "Type": 1,
+        "SType": 1,
+        "SafeValue": 60
+      },
+      {
+        "$type": "Grimoire.Game.Data.Skill, Grimoire",
+        "Text": "Armageddon",
+        "Index": "4"
+      }
+    ]
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Game.Data.Quest, Grimoire",
+        "QuestID": 10266,
+        "SafeRelogin": true,
+        "Text": "10266"
+      }
+    ]
+  },
+  "Author": "",
+  "Description": "",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Enthralling Gem Shard",
+      "Bocklin Ornament",
+      "Thronekeeper's Rune",
+      "Victorious' Golden Scale",
+      "Monster Blood",
+      "King Alteon's Armor Fragment"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588,
+    "sIP": "socket5.aq.com"
+  },
+  "ExitCombatBeforeRest": true,
+  "EnablePickup": true,
+  "RelogDelay": 5000,
+  "BotDelay": 500,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "ProvokeMonsters": true,
+  "WalkSpeed": 20,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "RestartOnAFK": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "FollowName": "Player name",
+  "AutoZone": ""
+}
