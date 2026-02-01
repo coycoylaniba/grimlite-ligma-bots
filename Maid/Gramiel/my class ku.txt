@@ -1,0 +1,4 @@
+L1 - LightCaster
+L2 - ArchPaladin
+R1 - Lord of Order
+R2 - StoneCrusher
