@@ -100,7 +100,7 @@
           "IsInProgress": true,
           "CanComplete": true
         },
-        "CompleteTry": -1,
+        "CompleteTry": 60,
         "ReAccept": false
       },
       {
@@ -118,7 +118,7 @@
           "IsInProgress": true,
           "CanComplete": true
         },
-        "CompleteTry": -1,
+        "CompleteTry": 100,
         "ReAccept": false
       },
       {
@@ -136,7 +136,7 @@
           "IsInProgress": true,
           "CanComplete": true
         },
-        "CompleteTry": -1,
+        "CompleteTry": 75,
         "ReAccept": false
       }
     ]
@@ -171,6 +171,7 @@
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
   "EnableRejection": true,
+  "EnablePickupAcTagged": true,
   "RelogDelay": 5000,
   "BotDelay": 1000,
   "SkipDelayIndexIf": true,
