@@ -4,31 +4,42 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2857,
-          "IsInProgress": true
-        },
-        "ghostAccept": false
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "6979",
+        "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7551,
+          "QuestID": 6979,
           "IsInProgress": true
         },
         "ghostAccept": false
       },
       {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can be turned in",
+        "Value1": "6979",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4778,
+          "QuestID": 6979,
           "IsInProgress": true
         },
-        "ghostAccept": false
+        "CompleteTry": 1,
+        "ReAccept": false
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 2,
+        "IndexString": ""
       }
     ]
   },
@@ -41,9 +52,9 @@
     "$values": [
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 2857,
+        "QuestID": 6979,
         "SafeRelogin": true,
-        "Text": "2857",
+        "Text": "6979",
         "IsInProgress": true
       }
     ]
@@ -57,19 +68,9 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": [
-      "Relic of Chaos",
-      "Unidentified 1",
-      "Unidentified 6",
-      "Unidentified 9",
-      "Unidentified 16",
-      "Unidentified 20",
-      "Tainted Gem",
-      "Dark Crystal Shard",
-      "Diamond of Nulgath",
-      "Voucher of Nulgath",
-      "Voucher of Nulgath (non-mem)",
-      "Essence of Nulgath",
-      "Gem of Nulgath"
+      "Bits of Cloth",
+      "Concentrated Mana",
+      "Scrap Metal"
     ]
   },
   "Server": {
@@ -82,13 +83,11 @@
   "EnablePickup": true,
   "EnableRejection": true,
   "EnablePickupAcTagged": true,
-  "AutoRelogin": true,
   "RelogDelay": 5000,
   "BotDelay": 1000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "ProvokeMonsters": true,
-  "LagKiller": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
@@ -100,23 +99,8 @@
   "RestartOnAFK": true,
   "Items": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
-    "$values": [
-      "Relic of Chaos",
-      "Unidentified 1",
-      "Unidentified 6",
-      "Unidentified 9",
-      "Unidentified 16",
-      "Unidentified 20",
-      "Tainted Gem",
-      "Dark Crystal Shard",
-      "Diamond of Nulgath",
-      "Voucher of Nulgath",
-      "Voucher of Nulgath (non-mem)",
-      "Essence of Nulgath",
-      "Gem of Nulgath"
-    ]
+    "$values": []
   },
-  "AntiCounter": true,
   "FollowName": "Player name",
   "AutoZone": ""
 }

@@ -58,8 +58,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "ghostAccept": false
       },
@@ -68,7 +67,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         },
         "ghostAccept": false
       },
@@ -347,12 +347,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
         "Index": 4,
         "IndexString": ""
       },
@@ -362,8 +356,7 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
           "ItemId": "22332",
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "ReAccept": false
@@ -373,8 +366,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "ghostAccept": false
       },
@@ -392,12 +384,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
         "Index": 4,
         "IndexString": ""
       },
@@ -407,8 +393,7 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
           "ItemId": "4770",
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "ReAccept": false
@@ -418,8 +403,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "ghostAccept": false
       },
@@ -437,12 +421,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
         "Index": 4,
         "IndexString": ""
       },
@@ -452,8 +430,7 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
           "ItemId": "4769",
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "ReAccept": false
@@ -463,8 +440,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "ghostAccept": false
       },
@@ -482,12 +458,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 2,
-        "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
         "Index": 4,
         "IndexString": ""
       },
@@ -497,8 +467,7 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
           "ItemId": "4771",
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "ReAccept": false
@@ -508,8 +477,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "ghostAccept": false
       },
@@ -527,12 +495,8 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 2,
+        "Index": 3,
         "IndexString": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "VOUCHER TOTEM CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
@@ -540,8 +504,7 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
           "ItemId": "6136",
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "CompleteTry": 1,
         "ReAccept": false
@@ -551,8 +514,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7551,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         },
         "ghostAccept": false
       },
@@ -585,7 +547,8 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
           "ItemId": "5357",
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         },
         "CompleteTry": 2,
         "ReAccept": false
@@ -595,7 +558,8 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4778,
-          "IsInProgress": true
+          "IsInProgress": true,
+          "CanComplete": true
         },
         "ghostAccept": false
       },
@@ -695,8 +659,9 @@
       "Voucher of Nulgath (non-mem)",
       "Essence of Nulgath",
       "Gem of Nulgath",
-      "Dark Makai Rune",
-      "Receipt of Swindle"
+      "Receipt of Swindle",
+      "Blood Gem of the Archfiend",
+      "Totem of Nulgath"
     ]
   },
   "Server": {
@@ -740,7 +705,9 @@
       "Voucher of Nulgath (non-mem)",
       "Essence of Nulgath",
       "Gem of Nulgath",
-      "Receipt of Swindle"
+      "Receipt of Swindle",
+      "Blood Gem of the Archfiend",
+      "Totem of Nulgath"
     ]
   },
   "AFK": true,
